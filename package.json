@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AdamMescher/beitzel-golf-next/issues"
   },
-  "homepage": "https://github.com/AdamMescher/beitzel-golf-next#readme"
+  "homepage": "https://github.com/AdamMescher/beitzel-golf-next#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
