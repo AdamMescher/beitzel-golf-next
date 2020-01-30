@@ -1,0 +1,20 @@
+{
+  "name": "beitzel-golf-next",
+  "version": "1.0.0",
+  "description": "Personal website for Brian Beitzel, a golf professional in Raleigh, NC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamMescher/beitzel-golf-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamMescher/beitzel-golf-next/issues"
+  },
+  "homepage": "https://github.com/AdamMescher/beitzel-golf-next#readme"
+}
