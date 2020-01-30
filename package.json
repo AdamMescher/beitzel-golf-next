@@ -4,6 +4,9 @@
   "description": "Personal website for Brian Beitzel, a golf professional in Raleigh, NC",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
