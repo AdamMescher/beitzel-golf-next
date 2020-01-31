@@ -1,7 +1,7 @@
 {
   "name": "beitzel-golf-next",
   "version": "0.0.1",
-  "description": "Personal website for Brian Beitzel, a golf professional in Raleigh, NC",
+  "description": "Personal website for Brian Beitzel, a golf professional based in Raleigh, NC",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -26,7 +26,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.0",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
