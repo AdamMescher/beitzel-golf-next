@@ -9,20 +9,16 @@ import Footer from '../Footer';
 import theme from '../../theme';
 
 
-class Page extends Component {
-  render() {
-    return (
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <StyledPage>
-          <Meta />
-          <Header />
-          <Inner>{this.PaymentResponse.children}</Inner>
-          <Footer />
-        </StyledPage>
-      </ThemeProvider>
-    );
-  }
-}
+const Page = ({ children }) => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <StyledPage>
+      <Meta />
+      <Header />
+      <Inner>{children}</Inner>
+      <Footer />
+    </StyledPage>
+  </ThemeProvider>
+);
 
 export default Page;
