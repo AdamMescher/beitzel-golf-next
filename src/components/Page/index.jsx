@@ -4,7 +4,6 @@ import GlobalStyle from '../GlobalStyle';
 import StyledPage from './styled';
 import Meta from '../Meta';
 import Header from '../Header';
-import Inner from '../Inner';
 import Footer from '../Footer';
 import theme from '../../theme';
 
@@ -15,7 +14,7 @@ const Page = ({ children }) => (
     <StyledPage>
       <Meta />
       <Header />
-      <Inner>{children}</Inner>
+      {children}
       <Footer />
     </StyledPage>
   </ThemeProvider>
